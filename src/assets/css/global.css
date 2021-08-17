@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Deca&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --title: #313131;
   --description: #B6B6B6;
@@ -13,4 +7,58 @@
   --gray: #F3F5F7;
   --blue: #574AE8;
   --gradient: linear-gradient(to right,#574AE8, #3EA1DB);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 15.625rem;
+  background: var(--gradient);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2.5rem 1.5rem;
+}
+
+section {
+  width: 100%;
+  background: var(--gray);
+  padding: 2rem 1.5rem;
+}
+
+input {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 1.5rem 3.5rem;
+  border: none;
+  outline: none;
+  color: var(--white);
+  font-size: 1.125rem;
+}
+
+::-webkit-input-placeholder  { 
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #FFFFFF;
+  opacity: 0.5; 
+}
+
+input:-moz-placeholder { 
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #FFFFFF;
+  opacity: 0.5; 
 }
