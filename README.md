@@ -1,5 +1,5 @@
 <h1 align="center">
-    Blog usando um forEach para percorrer um array
+    Blog usando forEach para percorrer um array
 </h1>
 
 
